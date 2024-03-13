@@ -122,6 +122,10 @@ h1 {
     background: rgb(231, 66, 24);
     background: linear-gradient(337deg, rgba(231, 66, 24, 1) 0%, rgba(1, 1, 1, 1) 100%);
 }
+.cash:hover{
+    background: rgb(231, 66, 24);
+        background: linear-gradient(90deg,#7F5C0B 0%, rgba(1, 1, 1, 1) 100%);
+}
 
 .tiktok:hover {
     background: rgb(0, 242, 234);
