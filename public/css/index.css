@@ -12,7 +12,7 @@ body {
     background-repeat: repeat;
     height: 100vh;
 
-  
+
     align-items: center;
     justify-content: center;
 
@@ -72,7 +72,7 @@ h1 {
 }
 
 .pSub {
-  
+
     font-size: 12px
 }
 
@@ -120,11 +120,18 @@ h1 {
 
 .globe:hover {
     background: rgb(231, 66, 24);
-    background: linear-gradient(337deg, rgba(231, 66, 24, 1) 0%, rgba(1, 1, 1, 1) 100%);
+    background: linear-gradient(180deg, rgba(231, 66, 24, 1) 0%, rgba(1, 1, 1, 1) 100%);
 }
-.cash:hover{
+.mortarboard:hover{
+    background: linear-gradient(180deg, #2F4F4F 0%, #006400 100%);
+}
+.piggy:hover {
+        background: linear-gradient(180deg, #9400D3 0%, #6495ED 100%);
+}
+
+.cash:hover {
     background: rgb(231, 66, 24);
-        background: linear-gradient(90deg,#7F5C0B 0%, rgba(1, 1, 1, 1) 100%);
+    background: linear-gradient(180deg, #7F5C0B 0%, rgba(1, 1, 1, 1) 100%);
 }
 
 .tiktok:hover {
@@ -138,8 +145,7 @@ h1 {
 
 
 @media screen and (max-width: 992px) {
-    .card{
+    .card {
         border-radius: 0 !important;
     }
 }
-
